@@ -74,9 +74,6 @@ function App() {
       >
         Get a new quote
       </button>
-      {!displayList && (
-        <h1 className="text-center p-4 text-2xl">Your Quote:</h1>
-      )}
       {isPending ? (
         <p className="text-center">Please wait...</p>
       ) : (
