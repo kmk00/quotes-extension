@@ -1,7 +1,4 @@
-interface Quote {
-  content: string;
-  author: string;
-}
+import { Quote } from "../Quote.types";
 
 export const QuoteContainer = ({ content, author }: Quote) => {
   return (
